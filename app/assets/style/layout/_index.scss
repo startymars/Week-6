@@ -1,0 +1,38 @@
+.background-image{
+  height: 680px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/bg_home.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner {
+  padding: 47px 80px;
+  border: 1px solid #fff;
+}
+
+.square {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.text{
+  font-size: 48px;
+  
+
+  &-linear{
+    background:linear-gradient(#09ACF5,#62DB54);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+}
+
+
+
+
+.index-icon{
+  font-size: 40px;
+}
+
+
