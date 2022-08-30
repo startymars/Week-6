@@ -28,11 +28,216 @@
   }
 }
 
-
+.card-hover{
+  &:hover{
+    border:1px solid $primary;
+ 
+  }
+}
 
 
 .index-icon{
   font-size: 40px;
 }
 
+.overflow{
+  overflow-x: auto;
+}
 
+
+
+.pseudo-line::after{
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  width: 50px;
+  height: 3px;
+  left: 0px;
+  background-color: #62DB54;
+}
+
+
+.feature-line::after{
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  width: 50px;
+  height: 3px;
+  left: 0px;
+  background-color: $white;
+
+ 
+}
+
+
+
+
+.number-position{
+  position: absolute;
+  top:-35px;
+  
+}
+
+.recommend-course:hover{
+  border: #62DB54 2px solid;
+}
+
+.coding{
+  &:hover{
+    border: 1px solid #62DB54;
+    background-color: $dark2;
+  }
+}
+
+
+.feature01{
+
+  height: 615px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/info01.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+
+  &:hover{
+    opacity: 100%;
+
+    .feature-icon{
+      color: #62DB54;
+    }
+
+    .feature-line::after{
+      content: '';
+      position: absolute;
+      bottom:-20px;
+      width: 50px;
+      height: 3px;
+      left: 0px;
+      background-color: #62DB54;
+  
+    }
+  }
+
+}
+
+.feature02{
+
+  height: 615px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/info02.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+
+  &:hover{
+    opacity: 100%;
+
+    .feature-icon{
+      color: #62DB54;
+    }
+
+    .feature-line::after{
+      content: '';
+      position: absolute;
+      bottom:-20px;
+      width: 50px;
+      height: 3px;
+      left: 0px;
+      background-color: #62DB54;
+  
+    }
+  }
+
+}
+
+.feature03{
+
+  height: 615px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/info03.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+
+  &:hover{
+    opacity: 100%;
+
+    .feature-icon{
+      color: #62DB54;
+    }
+
+    .feature-line::after{
+      content: '';
+      position: absolute;
+      bottom:-20px;
+      width: 50px;
+      height: 3px;
+      left: 0px;
+      background-color: #62DB54;
+  
+    }
+  }
+
+}
+
+.feature04{
+
+  height: 615px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/info04.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+
+  &:hover{
+    opacity: 100%;
+
+    .feature-icon{
+      color: #62DB54;
+    }
+
+    .feature-line::after{
+      content: '';
+      position: absolute;
+      bottom:-20px;
+      width: 50px;
+      height: 3px;
+      left: 0px;
+      background-color: #62DB54;
+  
+    }
+  }
+}
+
+
+
+.squareRounded {
+  display: none;
+  width: 32px;
+  height: 32px;
+  &-topLeft {
+    border-top: 2px solid #62DB54;
+    border-left: 2px solid #62DB54;
+    border-top-left-radius: 10px;
+  }
+  &-topRight {
+    border-top: 2px solid #62DB54;
+    border-right: 2px solid #62DB54;
+    border-top-right-radius: 10px;
+  }
+  &-bottomLeft {
+    border-bottom: 2px solid #62DB54;
+    border-left: 2px solid #62DB54;
+    border-bottom-left-radius: 10px;
+  }
+  &-bottomRight {
+    border-bottom: 2px solid #62DB54;
+    border-right: 2px solid #62DB54;
+    border-bottom-right-radius: 10px;
+  }
+}
+.card:hover {
+  .squareRounded {
+    display: block;
+  }
+}

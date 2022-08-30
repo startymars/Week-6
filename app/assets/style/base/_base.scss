@@ -1,7 +1,12 @@
 body{
 
-    font-family: 'Noto Sans TC', 'Azeret Mono', 'monospace',sans-serif;
+    font-family: 'Noto Sans TC',sans-serif;
+    line-height: 1.5;
   
+}
+
+.sec-font{
+    font-family: 'Azeret Mono', sans-serif;
 }
 
 .title-logo{
@@ -26,3 +31,50 @@ a{
 .w-100{
     width: 100%;
 }
+
+.teacher{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    
+}
+
+.btn-linear{
+    background:linear-gradient(#09ACF5,#62DB54);
+    color:#fff
+  }
+
+
+
+.squareRounded {
+    display: none;
+    width: 32px;
+    height: 32px;
+    &-topLeft {
+      border-top: 2px solid #62DB54;
+      border-left: 2px solid #62DB54;
+      border-top-left-radius: 10px;
+    }
+    &-topRight {
+      border-top: 2px solid #62DB54;
+      border-right: 2px solid #62DB54;
+      border-top-right-radius: 10px;
+    }
+    &-bottomLeft {
+      border-bottom: 2px solid #62DB54;
+      border-left: 2px solid #62DB54;
+      border-bottom-left-radius: 10px;
+    }
+    &-bottomRight {
+      border-bottom: 2px solid #62DB54;
+      border-right: 2px solid #62DB54;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  .card:hover {
+    .squareRounded {
+      display: block;
+    }
+  }
