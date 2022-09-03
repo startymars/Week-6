@@ -12624,7 +12624,7 @@ fieldset:disabled .btn {
 }
 
 .feature01:hover .feature-icon {
-  color: #62DB54;
+  color: #62DB54 !important;
 }
 
 .feature01:hover .feature-line::after {
@@ -12651,7 +12651,7 @@ fieldset:disabled .btn {
 }
 
 .feature02:hover .feature-icon {
-  color: #62DB54;
+  color: #62DB54 !important;
 }
 
 .feature02:hover .feature-line::after {
@@ -12678,7 +12678,7 @@ fieldset:disabled .btn {
 }
 
 .feature03:hover .feature-icon {
-  color: #62DB54;
+  color: #62DB54 !important;
 }
 
 .feature03:hover .feature-line::after {
