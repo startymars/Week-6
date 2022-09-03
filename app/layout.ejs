@@ -11,35 +11,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
  
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed navbar-dark bg-dark">
       <div class="container-fluid mx-3">
          <a class="navbar-brand d-flex justify-content-center align-items-end" href="index.html">
           <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week6-202207/logo2.svg" alt="logo" class="d-inline-block align-text-center" width="40" height="40">
           <h6 class="title-logo ms-3">Coding Home</h6>
         </a>
-     
-         <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+       
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 ms-auto mb-lg-0">  
             <li class="nav-item mx-2">
-              <a class="nav-link" aria-current="page" href="#">首頁</a>
+              <a class="nav-link" aria-current="page" href="index.html">首頁</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">課程介紹</a>
+              <a class="nav-link" href="course.html">課程介紹</a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex justify-content-center mx-2" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <span class="material-icons d-inline-block">account_circle</span>
                 <span>登入</span>
               </a>
-            
             </li>
           </ul>
-          </div>
+        </div>
+        
       </div>
     </nav>
 
@@ -96,6 +103,7 @@
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"></script>
   </body>
 
 </html>
